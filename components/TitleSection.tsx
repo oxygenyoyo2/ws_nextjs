@@ -1,9 +1,10 @@
 const TitleSection = () => {
   return (
-    <div className="title-section flex justify-center items-center text-[5.625rem] font-black ">
+    <div className="title-section flex justify-center items-center text-[5.625rem] font-black relative">
       <h1 className="z-10">The Rick and Morty API</h1>
-      <div className="hero-image absolute">
+      <div className="hero-image absolute w-[100%] h-[100%]">
         <svg
+          className="w-[100%] h-[100%]"
           width="378"
           height="376"
           viewBox="0 0 378 376"
